@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ownerAddresAnothers",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ownerAddressOne",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"10_contants.sol": "constantImplimnetation"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"10_contants.sol": {
+			"keccak256": "0xe54be6ec09218a03ef43a0baa8399e97c2c130aae6f8a6216aa75850ac480c35",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a1662a26928a1744bb5e4028009798eb52ed24c4953d4eabea4dbc3daab0c56",
+				"dweb:/ipfs/QmYUmjbf7Qr41CmaWFaeGu9YZwzjVoZJFuYQjcvj12i6y4"
+			]
+		}
+	},
+	"version": 1
+}

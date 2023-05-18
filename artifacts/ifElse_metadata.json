@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "compareValue",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"12_ifELse.sol": "ifElse"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"12_ifELse.sol": {
+			"keccak256": "0xa0940ca5b56a080cb68ad171719d6b56bd0e4978136879aca807bbe0032fe8c4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b426564e6f32510371ac8e8ee4d663dd461ce2514e7dc06b8b990da6fa6cdd81",
+				"dweb:/ipfs/QmQnskEZE1UWrEajhRQzPSyjXjN7TMfxVp7JVfQWZSsRu8"
+			]
+		}
+	},
+	"version": 1
+}

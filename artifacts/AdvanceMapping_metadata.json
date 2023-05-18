@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "account_info",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "donar_address",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "donation_amount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "delete_Info",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_donar_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_donar_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_donar_adress",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_donation_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "detDonarDetialsByItself",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"22_mapping.sol": "AdvanceMapping"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"22_mapping.sol": {
+			"keccak256": "0x5fef18a695a665d4020dc4ff29080d12cf1efc835e13e3c9013fafb70e3be1e3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://31ae4c03205080d05da352b52f98a8fa2d510ba6d645129c4706aab88c799bdc",
+				"dweb:/ipfs/QmSntSgpun2ywPWnHVoL2RzazosWf1aSYrv4rjWWQJXxaT"
+			]
+		}
+	},
+	"version": 1
+}

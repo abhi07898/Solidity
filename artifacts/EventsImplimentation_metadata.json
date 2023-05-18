@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "accoutn_address",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "eth_value",
+						"type": "uint256"
+					}
+				],
+				"name": "balance",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_eth_val",
+						"type": "uint256"
+					}
+				],
+				"name": "setDataInsideEvent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"25_events.sol": "EventsImplimentation"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"25_events.sol": {
+			"keccak256": "0xa66270ca6d00c643e6d7e888eeb45165d33f2662c63c5571a20ad492d59ad781",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e68f524c22fd222730edf7801285c2b7fdbf8978be2e851a6d6dd29dfe441af5",
+				"dweb:/ipfs/QmNpqaGWpkJN44E9hwZ17SUcYuRv9LscpXQ8BtSg9VjK43"
+			]
+		}
+	},
+	"version": 1
+}

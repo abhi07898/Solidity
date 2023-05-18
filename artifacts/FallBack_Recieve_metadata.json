@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "checkBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"34_Fallback_and_recieve.sol": "FallBack_Recieve"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"34_Fallback_and_recieve.sol": {
+			"keccak256": "0xe61f51e5dd5425e755d4fbf56902d0709b77546bb36a9cd72b0c80c689317ec1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://66626d554a80a59bec4b1b592c8101eac4f9ec56533c01e65df2597b40dd145d",
+				"dweb:/ipfs/QmYMFtGMQoHeBgYVfBNcSVr3zYFt2qPuPxC1b5PSEWHJRL"
+			]
+		}
+	},
+	"version": 1
+}
